@@ -1,0 +1,54 @@
+/* LARGE */
+@media (min-width: 768px) and (max-width: 991px) {
+    #hero .hero-container {
+        margin-left: 0px !important;
+     }
+     #hero h1 {
+        font-size: 48px !important;
+     }
+
+     .resume .sertifikat {
+        margin-left: 1px !important;
+        padding-top: 26px !important;
+        padding: 3 !important;
+    }
+}
+
+/* Tablet */
+@media (min-width: 576px) and (max-width: 767px)  {
+ #hero .hero-container {
+    margin-left: 400px !important;
+ }
+
+ .resume .sertifikat {
+    margin-left: 1px !important;
+    padding-top: 26px !important;
+    padding: 3 !important;
+}
+
+}
+
+/* MOBILE */
+@media (max-width: 575px)  {
+    #hero .hero-container {
+       margin-left: 10px !important;
+    }
+
+    .resume .sertifikat {
+        margin-left: 1px !important;
+        padding-top: 26px !important;
+        padding: 3 !important;
+    }
+}
+
+@media (max-width: 400px) {
+    #hero h1 {
+        font-size: 27px;
+        line-height: 25px;
+        margin-right: 5px;
+    }
+
+    #hero p {
+        font-size: 18px;
+    }
+}
