@@ -8,6 +8,14 @@
         height: 450px;
         border:0;
     }
+
+    #header .copyright {
+        text-align: center;
+        font-size: 7px;
+        color: aliceblue;
+        margin-top: 180px !important;
+        font-size: 10px;
+    }
 }
 
 /* medium */
@@ -36,6 +44,14 @@
         width: auto;
         padding-right: 20px 15px;
     }
+
+    #header .copyright {
+        text-align: center;
+        font-size: 7px;
+        color: aliceblue;
+        margin-top: 450px !important;
+        font-size: 10px;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1366px)  {
@@ -45,7 +61,14 @@
         width: auto;
         padding-right: 20px 15px;
     }
-    
+
+    #header .copyright {
+        text-align: center;
+        font-size: 7px;
+        color: aliceblue;
+        margin-top: 290% !important;
+        font-size: 10px;
+    }
 
 }
 
@@ -85,5 +108,12 @@
     #hero p {
         font-size: 18px;
     }
+
+   #header .copyright {
+        text-align: center;
+        font-size: 7px;
+        color: aliceblue;
+        margin-top: 270px !important;
+        font-size: 10px;
+    }
 }
-  
