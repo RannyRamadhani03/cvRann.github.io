@@ -1,35 +1,69 @@
-/* LARGE */
+@media (min-width: 1200px) {
+    #covid .my-sm-4 {
+        margin-bottom: 0 !important;
+    }
+
+    #contact .maps {
+        width: 450px !important;
+        height: 450px;
+        border:0;
+    }
+}
+
+/* medium */
 @media (min-width: 768px) and (max-width: 991px) {
+   
+    #contact .maps {
+        width: 640px !important;
+    }
+
     #hero .hero-container {
         margin-left: 0px !important;
-     }
+    }
+
      #hero h1 {
         font-size: 48px !important;
-     }
+    }
 
      .resume .sertifikat {
         margin-left: 1px !important;
         padding-top: 26px !important;
         padding: 3 !important;
     }
+
+    #footer {
+        position: static;
+        width: auto;
+        padding-right: 20px 15px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px)  {
+    
+    #footer {
+        position: static;
+        width: auto;
+        padding-right: 20px 15px;
+    }
+    
+
 }
 
 /* Tablet */
 @media (min-width: 576px) and (max-width: 767px)  {
- #hero .hero-container {
-    margin-left: 400px !important;
- }
+    #hero .hero-container {
+        margin-left: 400px !important;
+    }
 
- .resume .sertifikat {
-    margin-left: 1px !important;
-    padding-top: 26px !important;
-    padding: 3 !important;
-}
-
+    .resume .sertifikat {
+        margin-left: 1px !important;
+        padding-top: 26px !important;
+        padding: 3 !important;
+    }
 }
 
 /* MOBILE */
-@media (max-width: 575px)  {
+@media (max-width: 575px) {
     #hero .hero-container {
        margin-left: 10px !important;
     }
@@ -52,3 +86,4 @@
         font-size: 18px;
     }
 }
+  
